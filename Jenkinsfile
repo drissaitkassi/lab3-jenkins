@@ -11,6 +11,7 @@ pipeline{
             steps{
                 git credentialsId: 'github', 
                     url: 'https://github.com/drissaitkassi/lab3-jenkins.git'
+                    branch: 'main'
             }
         }
         
