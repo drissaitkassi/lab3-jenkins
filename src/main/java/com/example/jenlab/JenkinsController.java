@@ -10,6 +10,6 @@ public class JenkinsController {
 
     @GetMapping("/lab")
     public String getLabInfo(){
-        return "this lab is made by emil";
+        return "this lab is made by EMIL ASTIH";
     }
 }
