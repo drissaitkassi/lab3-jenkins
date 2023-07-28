@@ -23,7 +23,7 @@ pipeline{
         
         stage('Docker Build'){
             steps{
-                sh "docker build  -t drissapp:${DOCKER_TAG} . "
+                sh "docker build  -t drissapp:${DOCKER_TAG} ~/Desktop/dock-img "
             }
         }
         
